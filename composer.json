@@ -1,0 +1,17 @@
+{
+  "name": "zhukmax/slim",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Zhukmax\\Slim\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.4",
+    "ext-json": "*",
+    "j4mie/idiorm": "^1.5"
+  }
+}
